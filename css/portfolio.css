@@ -1,0 +1,12 @@
+/* Means links to sections of the page are not blocked by the header */
+div.portfolio-item { 
+	padding-top: 60px;
+}
+
+/* shift videos left on small displays */
+@media (max-width: 600px) {
+	video {
+		margin-left: -18px;
+		padding: 0;
+	}
+}

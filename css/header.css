@@ -1,0 +1,92 @@
+/* pad body of any page using header to make space for the header */
+body { 
+	padding-top: 70px; 
+	padding-left: 50px; 
+	padding-right: 50px; 
+	padding-bottom: 20px;
+	background-color: #CADEFA;
+	min-width: 300px;
+}
+/* remove padding for smaller displays */
+@media (max-width: 600px) {
+	body {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+/* make dropdown menu drop down on hover rather than click */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+/* define a gap item */
+li.gap { margin-left: 100px; margin-bottom: 10px; }
+
+.nav li.icon-link { padding: 15px 10px; }
+.nav li.icon-link a { padding: 0px; }
+
+.navbar { 
+	border-color: #3F1870;
+	border-width: 3px;
+	background-color: #FFFFFF;
+}
+
+div.video-center {
+	text-align: center;
+}
+
+div.clear {
+	height: 3px;
+	width: 100%;
+	background-color: #3F1870;
+}
+
+a {
+	/*color: #6F31BD;*/
+}
+a:hover {
+	color: #6F31BD;
+}
+
+a.no-link{
+	cursor: default;
+}
+
+.icon-link a{
+	height: 30px;
+	width: 30px;
+}
+
+html,
+body {
+   margin:0;
+   height:100%;
+}
+div.container {
+	min-height: 100%;
+	position:relative;
+	max-width: 100%;
+}
+div.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
+
+p.right-aligned {
+	text-align: right; margin-right: 25px;
+}
+
+div.height100 {
+	height: 100px;
+}
+
+li.text-dec-none {
+	text-decoration:none;
+}
+
+img.vertical-align-middle{
+	vertical-align:middle;
+}
